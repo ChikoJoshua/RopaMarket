@@ -17,7 +17,7 @@ data class PurchaseEntity(
     // En apps grandes, esto sería otra tabla (relación 1-N)
     val productsDetailJson: String,
 
-    val total: Double,
+    val total: Int,
     val method: String, // Retiro en tienda o Despacho a domicilio
     val date: Date,
     val address: String? // Nullable si es Retiro en tienda

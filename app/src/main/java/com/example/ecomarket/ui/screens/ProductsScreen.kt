@@ -17,7 +17,8 @@ import androidx.navigation.NavHostController
 import com.example.ecomarket.data.models.Product
 import com.example.ecomarket.ui.Screen
 import com.example.ecomarket.ui.viewmodel.ProductsViewModel
-import java.util.Locale
+import com.example.ecomarket.utils.PriceFormatter
+
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -125,12 +126,13 @@ fun ProductCard(
             )
 
             Text(
-                text = String.format(Locale.US, "$%.2f", product.price),
+                text = PriceFormatter.clp(product.price),
                 style = MaterialTheme.typography.titleLarge.copy(
                     color = MaterialTheme.colorScheme.primary
                 ),
                 modifier = Modifier.padding(vertical = 4.dp)
             )
+
 
             Spacer(modifier = Modifier.weight(1f))
 

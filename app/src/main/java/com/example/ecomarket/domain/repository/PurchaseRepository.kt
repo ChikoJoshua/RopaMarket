@@ -16,7 +16,7 @@ class PurchaseRepository(
     suspend fun registerPurchase(
         userEmail: String,
         cartItems: List<CartItem>,
-        total: Double,
+        total: Int,
         method: String,
         address: String?
     ) {

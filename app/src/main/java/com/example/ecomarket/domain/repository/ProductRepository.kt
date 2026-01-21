@@ -7,8 +7,36 @@ class ProductRepository {
 
     fun getProducts(): List<Product> {
         return listOf(
-            Product(1, "Aceite de Oliva Extra Virgen", 2.990, R.drawable.boxer1),
-            Product(2, "Café Tostado y Molido Orgánico", 7.500, R.drawable.boxer2),
+            Product(1, "Camisa Negra", 10990, R.drawable.camisa2),
+            Product(2, "Camisa Blanca", 12990, R.drawable.camisa1),
+            Product(3, "Polera Verde", 7500, R.drawable.polera1),
+            Product(4, "Camiseta Rosada", 7500, R.drawable.polera2),
+            Product(5, "Camiseta Celeste", 15990, R.drawable.polera3),
+            Product(6, "Camiseta blanca mangas negras", 15990, R.drawable.polera4),
+            Product(7, "Pantalón Azul", 15990, R.drawable.pantalon1),
+            Product(8, "Pantalón Cargo", 15990, R.drawable.pantaloncargo1),
+            Product(9, "Chaqueta", 15990, R.drawable.chaquetaa),
+            Product(10, "Zapatillas", 15990, R.drawable.zapatillas1),
+            Product(11, "Zapatillas Deportivas", 15990, R.drawable.zapatillas3),
+            Product(12, "Zapatos Dama", 15990, R.drawable.zapatosdama1),
+            Product(13, "Chaqueta Roja", 15990, R.drawable.chaqueta1),
+            Product(14, "Chaqueta Amarilla", 15990, R.drawable.chaqueta2),
+            Product(15, "Chaqueta Gris", 15990, R.drawable.chaqueta3),
+            Product(16, "Chaqueta Negra", 15990, R.drawable.chaqueta4),
+            Product(17, "Chaleco negro", 15990, R.drawable.chaleco1),
+            Product(18, "Chaleco amarillo", 15990, R.drawable.chaleco2),
+            Product(19, "Chaleco verde", 15990, R.drawable.chaleco3),
+            Product(20, "Chaleco blanco", 15990, R.drawable.chaleco4)
+
+
+
+
+
+
+
+
+
+
 
         )
     }

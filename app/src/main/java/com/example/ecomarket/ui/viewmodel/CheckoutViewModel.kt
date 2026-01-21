@@ -21,7 +21,7 @@ class CheckoutViewModel(
 
     val uiState: StateFlow<ProductsUiState> = productsViewModel.uiState
 
-    fun getCartTotal(): Double = productsViewModel.getCartTotal()
+    fun getCartTotal(): Int = productsViewModel.getCartTotal()
 
     fun updateCartItemQuantity(item: CartItem, quantity: Int) {
         productsViewModel.updateCartItemQuantity(item, quantity)

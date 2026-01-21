@@ -129,7 +129,7 @@ fun CartItemRow(
 // ---------- Bottom Bar ----------
 @Composable
 fun CartBottomBar(
-    total: Double,
+    total: Int,
     onContinueClick: () -> Unit,
     isEnabled: Boolean
 ) {

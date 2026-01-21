@@ -57,7 +57,7 @@ class ProductsViewModel(
         }
     }
 
-    fun getCartTotal(): Double {
+    fun getCartTotal(): Int {
         return _uiState.value.cartItems.sumOf { it.product.price * it.quantity }
     }
 
